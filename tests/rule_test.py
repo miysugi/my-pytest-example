@@ -1,7 +1,6 @@
 from example.rule import fizz_rule, buzz_rule
 from example.value import to_value, Value
 
-
 def test_fizz_rule_on_3():
     value = fizz_rule(to_value(3))
     assert value == Value(3, "Fizz")
