@@ -15,7 +15,6 @@ def test_fizz_rul_on_pre():
     expected = Value(9, "fooFizz")
     assert value == expected
 
-
 class TestIntegBuzzRule:
     def test_buzz_rule(self):
         assert False
