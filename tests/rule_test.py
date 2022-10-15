@@ -9,6 +9,7 @@ def test_fizz_rule_on_5():
     value = fizz_rule(to_value(5))
     assert value == to_value(5)
 
+
 def test_fizz_rul_on_pre():
     value = fizz_rule(Value(9, "foo"))
     expected = Value(9, "fooFizz")
