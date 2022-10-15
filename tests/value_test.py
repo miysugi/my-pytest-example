@@ -17,6 +17,7 @@ def test_mkValue2():
     assert mv == tv
 
 
+
 class TestValue:
     def test_something(self):
         value = to_value(10)
