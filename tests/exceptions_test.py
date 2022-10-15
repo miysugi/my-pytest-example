@@ -5,7 +5,6 @@ class FizzBuzzError(Exception):
     def __init__(self, *args: object) -> None:
         pass
 
-
 def raiseException():
     raise FizzBuzzError("foo")
 
