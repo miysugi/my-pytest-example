@@ -4,6 +4,7 @@ from example.value import Value
 
 Rule = Callable[[Value], Value]
 
+
 def fizz_rule(value: Value) -> Value:
     if value.original % 3 != 0:
         return value
